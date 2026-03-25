@@ -1,13 +1,17 @@
 start = print("Welcome to MID LAB GAME")
 choose = input("We have 3 templates choose 1, 2, 3: ")
 
-if choose not in ["1", "2", "3"]:
+if choose == "":
+    print("Error: input is empty. Please enter 1, 2, or 3. Exiting.")
+    exit()
+elif choose not in ["1", "2", "3"]:
     print("Invalid choice. Please enter 1, 2, or 3. Exiting.")
     exit()
 
 start_2 = print("Now put random things what it will ask !")
 
 if choose == "1" :
+
 
     Number = int(input("Number : "))
     Measure_of_time = input("Measure of time : ")
