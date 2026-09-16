@@ -13,24 +13,136 @@ start_2 = print("Now put random things what it will ask !")
 if choose == "1" :
 
 
-    Number = int(input("Number : "))
-    Measure_of_time = input("Measure of time : ")
-    Mode_of_Transportation = input("Mode of Transportation : ")
-    Adjective = input("Adjective : ")
-    Adjective2 = input("Adjective2 : ")
-    Noun = input("Noun : ")
-    Color = input("Color : ")
-    Part_of_the_Body = input("Part of the Body : ")
-    Verb = input("Verb : ")
-    Number2 = int(input("Number2 : "))
-    Noun2 = input("Noun2 : ")
-    Noun3 = input("Noun3 : ")
-    Part_of_the_Body2 = input("Part of the Body2 : ")
-    Verb = input("Verb : ")
-    Noun4 = input("Noun4 : ")
-    Adjective3 = input("Adjective3 : ")
-    Silly_Word = input("Silly Word : ")
-    Noun = input("Noun : ")
+    while True:
+        Number = input("Number : ")
+
+        if not Number.strip() or not Number.isdigit():
+            print("Error: you writed text or nothing try again")
+        else:
+            Number = int(Number)
+            break
+        
+
+    while True:
+        Measure_of_time = input("Measure of time : ")
+
+        if not  Measure_of_time.strip() or  Measure_of_time.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Mode_of_Transportation = input("Mode of Transportation : ")
+
+        if not  Mode_of_Transportation.strip() or  Mode_of_Transportation.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Adjective = input("Adjective : ")
+
+        if not  Adjective.strip() or  Adjective.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Adjective2 = input("Adjective2 : ")
+
+        if not  Adjective2.strip() or  Adjective2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Noun = input("Noun : ")
+
+        if not  Noun.strip() or  Noun.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Color = input("Color : ")
+
+        if not  Color.strip() or  Color.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Part_of_the_Body = input("Part of the Body : ")
+
+        if not  Part_of_the_Body.strip() or  Part_of_the_Body.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Verb = input("Verb : ")
+
+        if not  Verb.strip() or  Verb.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Number2 = input("Number2 : ")
+
+        if not Number2.strip() or not Number2.isdigit():
+            print("Error: you writed text or nothing try again")
+        else:
+            Number2 = int(Number2)
+            break
+
+    while True:
+        Noun2 = input("Noun2 : ")
+
+        if not  Noun2.strip() or  Noun2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Noun3 = input("Noun3 : ")
+
+        if not  Noun3.strip() or  Noun3.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Part_of_the_Body2 = input("Part of the Body2 : ")
+
+        if not  Part_of_the_Body2.strip() or  Part_of_the_Body2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Noun4 = input("Noun4 : ")
+
+        if not  Noun4.strip() or  Noun4.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Adjective3 = input("Adjective3 : ")
+
+        if not  Adjective3.strip() or  Adjective3.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:
+        Silly_Word = input("Silly Word : ")
+
+        if not  Silly_Word.strip() or  Silly_Word.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
 
     choose_1 = print(
         f"It was about {Number} {Measure_of_time} ago when I arrived at the hospital in a {Mode_of_Transportation}. "
@@ -43,23 +155,118 @@ if choose == "1" :
 
 elif choose == "2" :
 
-    Persons_Name = input("(Proper Noun (Person’s Name)) : ")
-    Noun = input("Noun : ")
-    Adjective = input("Adjective (Feeling) : ")
-    Verb = input("Verb : ")
-    Adjective2 = input("Adjective2 (Feeling) : ")
-    Animal = input("Animal : ")
-    Verb2 = input("Verb2 : ")
-    Color = input("Color : ")
-    Verb3 = input("Verb (ending in ing) : ")
-    Adverb = input("Adverb (ending in ly) : ")
-    Number = int(input("Number : "))
-    Measure_of_Time = input("Measure of time : ")
-    Color = input("Color : ")
-    Animal = input("Animal : ")
-    Number = int(input("Number : "))
-    Silly_Word = input("Silly Word : ")
-    Noun2 = input("Noun2 : ")
+    while True:
+        Persons_Name = input("(Proper Noun (Person’s Name)) : ")
+
+        if not  Persons_Name.strip() or  Persons_Name.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Noun = input("Noun : ")
+
+        if not  Noun.strip() or  Noun.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Adjective = input("Adjective (Feeling) : ")
+
+        if not  Adjective.strip() or  Adjective.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Verb = input("Verb : ")
+
+        if not  Verb.strip() or  Verb.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Adjective2 = input("Adjective (Feeling) 2 : ")
+
+        if not  Adjective2.strip() or  Adjective2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Animal = input("Animal : ")
+
+        if not  Animal.strip() or  Animal.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Verb2 = input("Verb2 : ")
+
+        if not  Verb2.strip() or  Verb2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Color = input("Color : ")
+
+        if not  Color.strip() or  Color.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Verb3 = input("Verb (ending in ing) : ")
+
+        if not  Verb3.strip() or  Verb3.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Adverb = input("Adverb (ending in ly) : ")
+
+        if not  Adverb.strip() or  Adverb.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Number = input("Number : ")
+
+        if not Number.strip() or not Number.isdigit():
+            print("Error: you writed text or nothing try again")
+        else:
+            Number = int(Number)
+            break
+    
+    while True:
+        Measure_of_Time = input("Measure of time : ")
+
+        if not  Measure_of_Time.strip() or  Measure_of_Time.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Silly_Word = input("Silly Word : ")
+
+        if not  Silly_Word.strip() or  Silly_Word.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+    
+    while True:
+        Noun2 = input("Noun2 : ")
+
+        if not  Noun2.strip() or  Noun2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
 
     choose_2 = print(f"This weekend I am going camping with {Persons_Name}."
                      f" I packed my lantern, sleeping bag, and {Noun}. "
@@ -72,26 +279,167 @@ elif choose == "2" :
 
 elif choose == "3" :
 
-    Person_Name = input("Person Name : ")
-    Adjective = input("Adjective : ")
-    Color = input("Color : ")
-    Animal = input("Animal : ")
-    Place = input("Place : ")
-    Adjective2 = input("Adjective2 : ")
-    Magical_Creature = input("Magical Creature (Plural) : ")
-    Adjective3 = input("Adjective3 : ")
-    Magical_Creature2 = input("Magical Creature2 (Plural) : ")
-    Room_in_a_House = input("Room in a House : ")
-    Noun = input("Noun : ")
-    Noun2 = input("Noun2 : ")
-    Noun3 = input("Noun3 (Plural) : ")
-    Adjective4 = input("Adjective4 : ")
-    Noun4 = input("Noun4 (Plural) : ")
-    Number = int(input("Number : "))
-    Measure_of_time = input("Measure of time : ")
-    Verb = input("Verb (ing) : ")
-    Adjective5 = input("Adjective5 : ")
-    Noun5 = input("Noun5 : ")
+    while True:
+        Person_Name = input("(Proper Noun (Person’s Name)) : ")
+
+        if not  Person_Name.strip() or  Person_Name.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Adjective = input("Adjective : ")
+
+        if not  Adjective.strip() or  Adjective.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:    
+        Color = input("Color : ")
+
+        if not  Color.strip() or  Color.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break    
+
+    while True:
+        Animal = input("Animal : ")
+
+        if not  Animal.strip() or  Animal.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:    
+        Place = input("Place : ")
+
+        if not  Place.strip() or  Place.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Adjective2 = input("Adjective2 : ")
+
+        if not  Adjective2.strip() or  Adjective2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Magical_Creature = input("Magical Creature (Plural) : ")
+
+        if not  Magical_Creature.strip() or  Magical_Creature.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Adjective3 = input("Adjective3 : ")
+
+        if not  Adjective3.strip() or  Adjective3.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+
+    while True:    
+        Magical_Creature2 = input("Magical Creature (Plural) 2 : ")
+
+        if not  Magical_Creature2.strip() or  Magical_Creature2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Room_in_a_House = input("Room in a House : ")
+    
+        if not  Room_in_a_House.strip() or  Room_in_a_House.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Noun = input("Noun : ")
+
+        if not  Noun.strip() or  Noun.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Noun2 = input("Noun2 : ")
+
+        if not  Noun2.strip() or  Noun2.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Noun3 = input("Noun(Plural) 3 : ")
+
+        if not  Noun3.strip() or  Noun3.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Adjective4 = input("Adjective4 : ")
+
+        if not  Adjective4.strip() or  Adjective4.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Noun4 = input("Noun(Plural) 4 : ")
+
+        if not  Noun4.strip() or  Noun4.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Number = input("Number : ")
+
+        if not Number.strip() or not Number.isdigit():
+            print("Error: you writed text or nothing try again")
+        else:
+            Number = int(Number)
+            break
+        
+    while True:    
+        Measure_of_time = input("Measure of time : ")
+
+        if not  Measure_of_time.strip():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Verb = input("Verb (ing) : ")
+
+        if not  Verb.strip() or  Verb.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:    
+        Adjective5 = input("Adjective5 : ")
+
+        if not  Adjective5.strip() or  Adjective5.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
+    while True:
+        Noun5 = input("Noun5 : ")
+
+        if not  Noun5.strip() or  Noun5.isdigit():
+            print("Error: you writed number or nothing try again")
+        else:
+            break
+        
 
     choose_3 = print(f"Dear {Person_Name} , I am writing to you from a {Adjective} castle in an enchanted forest. "
                      f"I found myself here one day after going for a ride on a {Color} {Animal} in {Place}. "
